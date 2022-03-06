@@ -11,7 +11,8 @@ Bot Slack per la compilazione della richiesta di ferie attraverso l'interfaccia 
 
 4) L’applicativo vero e proprio nella sua fase di sviluppo, utilizza il modulo Flask e ngrok per fare rerouting dell’host su un proxy server e creare endpoint sui quale fare richieste di GET e POST, che vengono usati per comunicare con l'API di Slack.
 
-5) Indicare i seguenti “Scopes” per l’app sul sito di slack in modo che abbia autorizzazione in lettura, scrittura, eventi sulle reazioni e slash commands.<img width="782" alt="Screenshot 2020-12-29 at 10 44 52" src="https://user-images.githubusercontent.com/76904889/156947237-c56218fc-989e-4a89-9357-6481d1b6db3d.png">
+5) Indicare i seguenti “Scopes” per l’app sul sito di slack in modo che abbia autorizzazione in lettura, scrittura, eventi sulle reazioni e slash commands. <br>
+<img width="782" alt="Screenshot 2020-12-29 at 10 44 52" src="https://user-images.githubusercontent.com/76904889/156947237-c56218fc-989e-4a89-9357-6481d1b6db3d.png">
 
 6) Definire sempre sul sito slack uno slash command "/time-off", indicando come URL per una POST request, un endpoint custom, del tipo http://****.ngrok.io/time-off
 
