@@ -1,5 +1,5 @@
 # Slack_App
-### Bot Slack per la compilazione della richiesta di ferie attraverso l'interfaccia della famosa app di messaggistica
+Bot Slack per la compilazione della richiesta di ferie attraverso l'interfaccia della famosa app di messaggistica
 
 ## Steps di Creazione dell'Applicativo
 
